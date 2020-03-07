@@ -510,24 +510,24 @@
 
 ### Figure 1
 
-![](/Users/isabella/Desktop/assignmentY3/csc320/presentation/figure1.png)
+![](./figure1.png)
 
 ### Figure 2
 
-![](/Users/isabella/Desktop/assignmentY3/csc320/presentation/figure2.png)
+![](./figure2.png)
 
 ### Figure 3
 
-![](/Users/isabella/Desktop/assignmentY3/csc320/presentation/figure3.png)
+![](./figure3.png)
 
 ### Figure 4
 
-![](/Users/isabella/Desktop/assignmentY3/csc320/presentation/figure4.png)
+![](./figure4.png)
 
 ### Figure 5
 
-![](/Users/isabella/Desktop/assignmentY3/csc320/presentation/figure5.png)
+![](./figure5.png)
 
 ### Table 1
 
-![](/Users/isabella/Desktop/assignmentY3/csc320/presentation/table1.png)
+![](./table1.png)
