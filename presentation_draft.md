@@ -8,7 +8,7 @@
 
 * All signal processing devices have traits that make them susceptible to noise
 * Images taken with both digital cameras and conventional film cameras will pick up noise from a variety of sources like by a device's mechanism or signal processing algorithms
-* Noise can be random or white noise with frequency distribution
+* Noise can be random or with frequency distribution
 
 ### Noise Type
 
@@ -49,6 +49,17 @@
 
   *  $\large{n(i})$ = gaussian white noise $\Rightarrow$ $\large{n(i})$ = i.i.d. gaussian values with zero mean and variance $\sigma^2$ 
   
+
+### Smoothing Method Formula
+
+* a denoising method $\large{D_h}$ can be defined as:
+
+​                                              $\Huge{v = D_hv + n(D_h, v)}$ 
+
+*  $\large{v} \to$ noisy image,    $\large{h}\to$ filtering parameter $\propto$ standard deviation of noise,  $\large{n()} \to$ noise perturbation
+*  optimality
+   * $\large{D_hv}$  smoother than $\large{v}$
+   * $\large{n(D_h, v)}$  = the realization of a white noise
 
 ## One Attempt Method - Smoothing Filters
 
