@@ -1,0 +1,1 @@
+Presentation and implementation of ["A non-local algorithm for image denoising" by Buades et al](https://www.iro.umontreal.ca/~mignotte/IFT6150/Articles/Buades-NonLocal.pdf).
