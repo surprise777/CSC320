@@ -3,8 +3,8 @@ import numpy as np
 from math import exp
 """ Parameters for the Non-Local Mean algorithm. """
 IMG_PATH = './input.png'
-PATCH_SIZE = 6      # 3 for a 3x3 patch
-WINDOW_SIZE = 12     # 5 for a 5x5 window
+PATCH_SIZE = 1      # 3 for a 3x3 patch
+WINDOW_SIZE = 5     # 5 for a 5x5 window
 H = 100
 
 
@@ -51,7 +51,7 @@ class NLM:
         patch_i = img[x_1-radius: x_1+radius+1, y_1-radius: y_1+radius+1]
         patch_j = img[x_2-radius: x_2+radius+1, y_2-radius: y_2+radius+1]
         # Euclidean distance
-        dist = np.linalg.norm(patch_i - patch_j)
+        dist = np.linalg.norm(patch_i - patch_j) ** 2
         gauss_weighted_dist = exp(-dist / self.h ** 2)
         return gauss_weighted_dist
 
