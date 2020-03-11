@@ -60,16 +60,16 @@ So our alogrithm 's goal is to
 
 * recover the original image from a noisy measurement
 
-####  One Attempt Method - Smoothing Filters
+####  One Attempt Operator - Smoothing Filters
 *  using a [spatial filter](https://en.wikipedia.org/wiki/Spatial_filter) to smooth an image
-### Smoothing Method Formula
+### Denoising Operator 
 
-* a smoothing filter denoising method $\large{D_h}$ can be defined as this formula
+* a denoising operator $\large{D_h}$ can be defined as this model
 
 $\Huge{v = D_hv + n(D_h, v)}$ 
 
 *  where we denotes $\large{v} \to$ noisy image that is observed value,    $\large{h}\to$ filtering parameter $\propto$ standard deviation of noise,  $\large{n()} \to$ noise perturbation
-*  so a noisy image v after denoising by method D will return the true value of the image
+*  so a noisy image v after denoising by operator D will approach to the true value of the image
 *  And Ideally
    * the true value image should be smoother than the observed noisy image
    * and the noise perturbation should be a realization of a gaussian white noise
